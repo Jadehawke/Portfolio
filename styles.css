@@ -4,6 +4,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+
 }
 .container{
     background-image: url("tulips.jpeg");
@@ -11,6 +12,7 @@ body, html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
+    font-family: 'Amatic SC', cursive;
 }
 
 .welcome {
@@ -20,28 +22,32 @@ body, html {
     color: darkolivegreen;
     font-size: 150px;
     position:absolute;
-    bottom: 165px;
-    text-shadow: 2px 2px #000000;
-    font-family: 'Amatic SC', cursive;
+    bottom: 178px;
+    text-shadow: 2px 2px #FFFFFF;
+
 
 }
 
 .navigationbar{
+    list-style: none;
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding: 6px;
+    padding: 12px;
     background-color: darkolivegreen;
     margin-top: 0;
     position: absolute;
-    bottom: 139px;
+    bottom: 100px;
     font-size: 40px;
-    font-family: 'Amatic SC', cursive;
-    box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #FFFFFF;
 }
 
 
 a{
     color: #ffffff;
     text-decoration: none;
+
+}
+a:hover {
+    border: 1px solid white;
 }
