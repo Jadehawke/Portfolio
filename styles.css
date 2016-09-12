@@ -1,0 +1,47 @@
+
+body, html {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container{
+    background-image: url("tulips.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.welcome {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 50px;
+    color: darkolivegreen;
+    font-size: 150px;
+    position:absolute;
+    bottom: 165px;
+    text-shadow: 2px 2px #000000;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.navigationbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 6px;
+    background-color: darkolivegreen;
+    margin-top: 0;
+    position: absolute;
+    bottom: 139px;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    box-shadow: 2px 2px #000000;
+}
+
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
