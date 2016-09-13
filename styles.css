@@ -6,6 +6,11 @@ body, html {
     height: 100%;
 
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
 .container{
     background-image: url("tulips.jpeg");
     background-size: 100%;
@@ -50,4 +55,79 @@ a{
 }
 a:hover {
     border: 1px solid white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/*Resume Page*/
+
+.resumecontainer{
+
+    background-image: url("brickedwindow.jpeg");
+    background-size: 100%;
+    width: auto;
+    height: 100%;
+    font-family: 'Cardo', serif;
+}
+
+
+
+.resumeNavUl {
+    background-color: black;
+    opacity: .7;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.whiteblock {
+    background-color: white;
+    height: 100%;
+    width: 65%;
+    margin: 0 auto;
+}
+
+/*About Me Page*/
+
+.aboutMeContainer{
+    background-image: url("vinewood.jpeg");
+    background-size: 100%;
+    width: auto;
+    height: 100%;
+}
+
+/*Contact Page*/
+
+.contactContainer {
+    background-image: url("talltrees.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+}
+
+.contactCode{
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    padding: 20px;
+
+}
+
+label{
+    display: block;
+}
+
+
+/*Projects Page*/
+
+.projectsContainer{
+    background-image: url("darkgrainywood.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
 }
