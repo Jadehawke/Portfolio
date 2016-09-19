@@ -1,0 +1,62 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+
+.header{
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #ffffff;
+    overflow: hidden;
+    background-color: #000000;
+    opacity: .6;
+
+}
+
+.logo {
+    float: left;
+    color: #FFFFFF;
+}
+
+.nav{
+    float: right;
+    padding-right: 20px;
+}
+
+.nav a {
+    color: #ffffff;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+
+.homePageContainer{
+    background-image: url("brushed_alu_dark_@2X.png");
+    height: 100%;
+
+}
+
+.homePageSections{
+    margin: 50px;
+}
+
+.homePageSections img {
+    width: 60%;
+    height: auto;
+}
+
+.homePageText{
+    background-color: #FFFFFF;
+    opacity: .9;
+    width: 35%;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}

@@ -67,7 +67,7 @@ a:hover {
     background-size: 100%;
     width: auto;
     height: 100%;
-    font-family: 'Cardo', serif;
+
 }
 
 
@@ -76,10 +76,10 @@ a:hover {
     background-color: black;
     opacity: .7;
     list-style: none;
-    display: flex;
     justify-content: space-around;
     text-decoration: none;
     font-size: 30px;
+    font-family: 'Nothing You Could Do', cursive;
 }
 
 .whiteblock {
@@ -98,6 +98,30 @@ a:hover {
     height: 100%;
 }
 
+.aboutmetext{
+    margin: 100px;
+    margin-left: 250px;
+    padding: 50px;
+    background-color: #FFFFFF;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+#aboutText {
+    width: 60%;
+    font-family: 'Antic', sans-serif;
+}
+
+
+
+#catimage{
+    float: right;
+    width: 30%;
+    height: auto;
+
+}
 /*Contact Page*/
 
 .contactContainer {
@@ -124,10 +148,33 @@ label{
 
 /*Projects Page*/
 
-.projectsContainer{
+.projectsContainer {
     background-image: url("darkgrainywood.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
     width: auto;
     height: 100%;
 }
+
+/*Homepage*/
+
+.homePageContainer{
+    background-image: url("brushed_alu_dark_@2X.png");
+}
+
+.homePageSections{
+    margin: 50px;
+}
+
+.homePageSections img {
+    width: 60%;
+    height: auto;
+}
+
+.homePageText{
+    color: white;
+    width: 30%;
+    float: right;
+    box-sizing: border-box;
+}
+
