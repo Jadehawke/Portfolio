@@ -77,6 +77,8 @@ a:hover{
     height: auto;
 }
 
+
+
 .homePageText{
     background-color: #FFFFFF;
     opacity: .9;
@@ -91,8 +93,24 @@ a:hover{
     overflow: hidden;
 }
 
+/*.textImgDiv{}*/
+
+
+/*#darkgreenfoliage{*/
+    /*float: right;*/
+    /*display: block;*/
+    /*width: 35%;*/
+    /*box-sizing: border-box;*/
+
+/*}*/
+
+#teacrumpets{
+    float: left;
+}
+
 #bottomborder{
     width: 100%;
+    margin-bottom: 50px;
 }
 
 
@@ -109,7 +127,7 @@ a:hover{
 
 .whiteblock {
     background-color: white;
-    height: 100%;
+    height: 93%;
     width: 65%;
     margin: 0 auto;
 }
@@ -124,38 +142,39 @@ a:hover{
 .aboutmeBlock{
     margin-left: 100px;
     margin-right: 100px;
-    background-color: orange;
     height: 93%;
     box-sizing: border-box;
 
 
 }
 
-#aboutText{
-   padding: 50px;
-
+.aboutTextMargin{
+    background-color: #FFFFFF;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
 }
 
+#aboutTextInner{
+    background-color: #FFFFFF;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#aboutTextInner img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    heigth: 100%;
+}
 #aboutparagraph {
     width: 60%;
     font-family: 'Antic', sans-serif;
+    padding: 50px;
 }
-
-.aboutMeImages{
-    float: right;
-    width: 21%;
-    height: 93%;
-
-
-}
-
-.aboutMeImages img{
-    display: block;
-    /*height: auto;*/
-    width: 100%;
-
-}
-
 /*Contact Page*/
 
 .contactContainer {
@@ -175,10 +194,19 @@ a:hover{
 
 }
 
+
+
+#subcribe2{
+    display: inline;
+}
+
 label{
     display: block;
 }
+#subscribe{
+    display:inline;
 
+}
 
 /*Projects Page*/
 
@@ -193,23 +221,39 @@ label{
 
 .projectColumns{
     margin: 100px;
-    background-color: #FFFFFF;
-    height: 70%;
+    width: 90%;
+    height: auto;
     padding: 5px;
-    text-align: center;
+    bottom: 40px;
 
 }
 
 .col-lg-3{
-    padding: 5px;
-    border-left-style: solid;
-    border-color: black;
+    padding: 40px;
 }
 
-.projectColumns img{
-    width: 80%;
+
+.projectwhiteblock img {
+    width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.projectwhiteblock{
+    background-color: #FFFFFF;
+    padding: 20px;
+    height: 100%;
+    border-radius: 10px;
+    padding-bottom: 100px;
+}
+
+.projectwhiteblock h3{
+    text-align: center;
+}
+
+.projectwhiteblock a{
+    text-decoration: none;
 }
