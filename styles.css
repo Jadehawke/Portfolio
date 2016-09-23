@@ -72,19 +72,17 @@ a:hover{
     margin: 50px;
 }
 
-.homePageSections img {
-    width: 60%;
-    height: auto;
+.textImgDiv{
+    padding-left: 40px;
+    padding-right: 40px;
 }
-
 
 
 .homePageText{
     background-color: #FFFFFF;
     opacity: .9;
-    width: 35%;
-    height: 100%;
-    float: right;
+    width: 100%;
+    height: auto;
     box-sizing: border-box;
     border-radius: 5px;
     padding: 20px;
@@ -93,24 +91,23 @@ a:hover{
     overflow: hidden;
 }
 
-/*.textImgDiv{}*/
 
+#darkgreenfoliage{
+    width:100%;
+    height: auto;
+    padding-top: 37px;
 
-/*#darkgreenfoliage{*/
-    /*float: right;*/
-    /*display: block;*/
-    /*width: 35%;*/
-    /*box-sizing: border-box;*/
-
-/*}*/
+}
 
 #teacrumpets{
-    float: left;
+    width: 100%;
+    height: auto;
 }
 
 #bottomborder{
     width: 100%;
-    margin-bottom: 50px;
+    position: fixed;
+    bottom: 0;
 }
 
 
@@ -130,6 +127,25 @@ a:hover{
     height: 93%;
     width: 65%;
     margin: 0 auto;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bulletedlist{
+    list-style-position: inside;
+}
+
+.resumeNameNumber{
+    border-bottom: 2px solid black;
+}
+
+.resumeEducation{
+    border-bottom: 2px solid black;
+}
+
+.resumeWork{
+    border-bottom: 2px solid black;
 }
 
 /*About Me Page*/
@@ -171,7 +187,7 @@ a:hover{
     heigth: 100%;
 }
 #aboutparagraph {
-    width: 60%;
+    width: 100%;
     font-family: 'Antic', sans-serif;
     padding: 50px;
 }
@@ -206,6 +222,11 @@ label{
 #subscribe{
     display:inline;
 
+}
+
+.submitAndReset{
+    display: inline-block;
+    padding: 10px;
 }
 
 /*Projects Page*/
